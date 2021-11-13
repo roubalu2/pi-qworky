@@ -6,5 +6,5 @@ int main()
 {
     Deska deska ;
 	deska.print();
-    return 0;
+	return 0;
 }

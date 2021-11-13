@@ -43,5 +43,19 @@ void Deska::print()
 
     cout<<endl;
 }
-
+bool Deska::prazdne(int x, int y){
+	if (x >= 0 && x <= VelPol-1 && y >= 0 && y <= VelPol-1 && deska[x][y] == '-'){
+		return true;
+	}
+	return false;
+}
+void Deska::Hodnota(int x, int y, char z){
+	deska[x][y] = z;
+	if ( z == '-'){
+		count--;
+	}else {
+		count++;
+	}
+	return;
+}
 //void
