@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1636806520 source:c:\users\lucin\documents\github\pisqworky\pisqworky\main.cpp
+	<iostream>
+	"Deska.h"
+
+1636806777 c:\users\lucin\documents\github\pisqworky\pisqworky\include\deska.h
+	<iostream>
+
+1636808124 source:c:\users\lucin\documents\github\pisqworky\pisqworky\src\deska.cpp
+	<iostream>
+	"Deska.h"
+
