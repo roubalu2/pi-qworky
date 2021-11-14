@@ -173,7 +173,7 @@ void Hra::Konzole ()
 
             v = pocitac_rand.tah(deska);
             x = v[0];
-            y =v[1];
+            y = v[1];
 
         }
 
@@ -198,6 +198,7 @@ void Hra::Konzole ()
                 cout << "Souradnice tahu pocitace jsou: ("<<x<<", "<<y<<") "<<endl;
             }
         }
+    hod= 3 - hod;
     }
 
 
