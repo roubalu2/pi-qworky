@@ -35,8 +35,14 @@
 			<Add option="-fexceptions" />
 		</Compiler>
 		<Unit filename="include/Deska.h" />
+		<Unit filename="include/Hra.h" />
+		<Unit filename="include/Pocitac_ok.h" />
+		<Unit filename="include/Pocitac_rand.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/Deska.cpp" />
+		<Unit filename="src/Hra.cpp" />
+		<Unit filename="src/Pocitac_ok.cpp" />
+		<Unit filename="src/Pocitac_rand.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>
