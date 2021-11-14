@@ -53,20 +53,20 @@
 	<vector>
 	"Deska.h"
 
-1636890808 source:c:\users\lucie\onedrive\dokumenty\Èvut\inženýrské studium\1. semestr\programování inženýrských aplikací\piškvorky\piškvorky\pisqworky\main.cpp
+1636893292 source:c:\users\lucie\onedrive\dokumenty\Èvut\inženýrské studium\1. semestr\programování inženýrských aplikací\piškvorky\piškvorky\pisqworky\main.cpp
 	<iostream>
 	"Hra.h"
 	"Deska.h"
 	"Pocitac_rand.h"
 
-1636888717 c:\users\lucie\onedrive\dokumenty\Èvut\inženýrské studium\1. semestr\programování inženýrských aplikací\piškvorky\piškvorky\pisqworky\include\deska.h
+1636893292 c:\users\lucie\onedrive\dokumenty\Èvut\inženýrské studium\1. semestr\programování inženýrských aplikací\piškvorky\piškvorky\pisqworky\include\deska.h
 	<iostream>
 
-1636888717 source:c:\users\lucie\onedrive\dokumenty\Èvut\inženýrské studium\1. semestr\programování inženýrských aplikací\piškvorky\piškvorky\pisqworky\src\deska.cpp
+1636893292 source:c:\users\lucie\onedrive\dokumenty\Èvut\inženýrské studium\1. semestr\programování inženýrských aplikací\piškvorky\piškvorky\pisqworky\src\deska.cpp
 	<iostream>
 	"Deska.h"
 
-1636888717 source:c:\users\lucie\onedrive\dokumenty\Èvut\inženýrské studium\1. semestr\programování inženýrských aplikací\piškvorky\piškvorky\pisqworky\src\pocitac_rand.cpp
+1636893292 source:c:\users\lucie\onedrive\dokumenty\Èvut\inženýrské studium\1. semestr\programování inženýrských aplikací\piškvorky\piškvorky\pisqworky\src\pocitac_rand.cpp
 	"Pocitac_rand.h"
 	<stdio.h>
 	<iostream>
@@ -75,7 +75,7 @@
 	<cstdlib>
 	<ctime>
 
-1636888717 c:\users\lucie\onedrive\dokumenty\Èvut\inženýrské studium\1. semestr\programování inženýrských aplikací\piškvorky\piškvorky\pisqworky\include\pocitac_rand.h
+1636893292 c:\users\lucie\onedrive\dokumenty\Èvut\inženýrské studium\1. semestr\programování inženýrských aplikací\piškvorky\piškvorky\pisqworky\include\pocitac_rand.h
 	<stdio.h>
 	<iostream>
 	<vector>
@@ -88,21 +88,95 @@
 	<vector>
 	<iostream>
 
-1636890763 c:\users\lucie\onedrive\dokumenty\Èvut\inženýrské studium\1. semestr\programování inženýrských aplikací\piškvorky\piškvorky\pisqworky\include\hra.h
+1636893292 c:\users\lucie\onedrive\dokumenty\Èvut\inženýrské studium\1. semestr\programování inženýrských aplikací\piškvorky\piškvorky\pisqworky\include\hra.h
 	<iostream>
 	<stdio.h>
 	<vector>
 	"Deska.h"
 	"Pocitac_rand.h"
 
-1636891181 c:\users\lucin\documents\github\pisqworky\pisqworky\include\hra.h
+1636896265 source:d:\marek\Èvut\inženýrské studium\5. roèník\1. semestr\pia 1\semestralka\pokus_03\main.cpp
+	<iostream>
+	"Hra.h"
+	"Deska.h"
+	"Pocitac_rand.h"
+
+1636896864 d:\marek\Èvut\inženýrské studium\5. roèník\1. semestr\pia 1\semestralka\pokus_03\include\hra.h
+	<iostream>
+	<stdio.h>
+	<vector>
+	"Deska.h"
+	"Pocitac_rand.h"
+	"Pocitac_ok.h"
+
+1636896265 d:\marek\Èvut\inženýrské studium\5. roèník\1. semestr\pia 1\semestralka\pokus_03\include\deska.h
+	<iostream>
+
+1636896265 d:\marek\Èvut\inženýrské studium\5. roèník\1. semestr\pia 1\semestralka\pokus_03\include\pocitac_rand.h
+	<stdio.h>
+	<iostream>
+	<vector>
+	"Deska.h"
+
+1636896265 source:d:\marek\Èvut\inženýrské studium\5. roèník\1. semestr\pia 1\semestralka\pokus_03\src\deska.cpp
+	<iostream>
+	"Deska.h"
+
+1636896265 source:d:\marek\Èvut\inženýrské studium\5. roèník\1. semestr\pia 1\semestralka\pokus_03\src\hra.cpp
+	"Hra.h"
+	"Deska.h"
+	"Pocitac_rand.h"
+	<vector>
+	<iostream>
+
+1636896265 source:d:\marek\Èvut\inženýrské studium\5. roèník\1. semestr\pia 1\semestralka\pokus_03\src\pocitac_rand.cpp
+	"Pocitac_rand.h"
+	<stdio.h>
+	<iostream>
+	<vector>
+	"Deska.h"
+	<cstdlib>
+	<ctime>
+
+1636896583 source:d:\marek\Èvut\inženýrské studium\5. roèník\1. semestr\pia 1\semestralka\pokus_03\src\pocitac_ok.cpp
+	"Pocitac_ok.h"
+	<stdio.h>
+	<iostream>
+	<vector>
+	"Deska.h"
+	<cstdlib>
+	<ctime>
+	"Hra.h"
+
+1636896864 d:\marek\Èvut\inženýrské studium\5. roèník\1. semestr\pia 1\semestralka\pokus_03\include\pocitac_ok.h
+	<stdio.h>
+	<iostream>
+	<vector>
+	"Deska.h"
+
+1636902941 c:\users\lucin\documents\github\pisqworky\pisqworky\include\hra.h
 	<iostream>
 	<stdio.h>
 	<vector>
 	"Deska.h"
 	"Pocitac_rand.h"
 
-1636902273 source:c:\users\lucin\documents\github\pisqworky\pisqworky\src\hra.cpp
+1636902892 source:c:\users\lucin\documents\github\pisqworky\pisqworky\src\pocitac_ok.cpp
+	"Pocitac_ok.h"
+	<stdio.h>
+	<iostream>
+	<vector>
+	"Deska.h"
+	<cstdlib>
+	<ctime>
+
+1636902892 c:\users\lucin\documents\github\pisqworky\pisqworky\include\pocitac_ok.h
+	<stdio.h>
+	<iostream>
+	<vector>
+	"Deska.h"
+
+1636902940 source:c:\users\lucin\documents\github\pisqworky\pisqworky\src\hra.cpp
 	"Hra.h"
 	"Deska.h"
 	"Pocitac_rand.h"
