@@ -1,12 +1,14 @@
 # depslib dependency file v1.0
-1636810339 source:c:\users\lucin\documents\github\pisqworky\pisqworky\main.cpp
+1636891181 source:c:\users\lucin\documents\github\pisqworky\pisqworky\main.cpp
 	<iostream>
+	"Hra.h"
 	"Deska.h"
+	"Pocitac_rand.h"
 
-1636888041 c:\users\lucin\documents\github\pisqworky\pisqworky\include\deska.h
+1636891140 c:\users\lucin\documents\github\pisqworky\pisqworky\include\deska.h
 	<iostream>
 
-1636887804 source:c:\users\lucin\documents\github\pisqworky\pisqworky\src\deska.cpp
+1636891140 source:c:\users\lucin\documents\github\pisqworky\pisqworky\src\deska.cpp
 	<iostream>
 	"Deska.h"
 
@@ -36,7 +38,7 @@
 	<vector>
 	"Deska.h"
 
-1636884669 source:c:\users\lucin\documents\github\pisqworky\pisqworky\src\pocitac_rand.cpp
+1636891140 source:c:\users\lucin\documents\github\pisqworky\pisqworky\src\pocitac_rand.cpp
 	"Pocitac_rand.h"
 	<stdio.h>
 	<iostream>
@@ -45,7 +47,7 @@
 	<cstdlib>
 	<ctime>
 
-1636884669 c:\users\lucin\documents\github\pisqworky\pisqworky\include\pocitac_rand.h
+1636891140 c:\users\lucin\documents\github\pisqworky\pisqworky\include\pocitac_rand.h
 	<stdio.h>
 	<iostream>
 	<vector>
@@ -92,4 +94,19 @@
 	<vector>
 	"Deska.h"
 	"Pocitac_rand.h"
+
+1636891181 c:\users\lucin\documents\github\pisqworky\pisqworky\include\hra.h
+	<iostream>
+	<stdio.h>
+	<vector>
+	"Deska.h"
+	"Pocitac_rand.h"
+
+1636902273 source:c:\users\lucin\documents\github\pisqworky\pisqworky\src\hra.cpp
+	"Hra.h"
+	"Deska.h"
+	"Pocitac_rand.h"
+	<vector>
+	<iostream>
+	<regex>
 
