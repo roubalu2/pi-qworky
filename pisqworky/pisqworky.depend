@@ -51,3 +51,45 @@
 	<vector>
 	"Deska.h"
 
+1636890808 source:c:\users\lucie\onedrive\dokumenty\Èvut\inženýrské studium\1. semestr\programování inženýrských aplikací\piškvorky\piškvorky\pisqworky\main.cpp
+	<iostream>
+	"Hra.h"
+	"Deska.h"
+	"Pocitac_rand.h"
+
+1636888717 c:\users\lucie\onedrive\dokumenty\Èvut\inženýrské studium\1. semestr\programování inženýrských aplikací\piškvorky\piškvorky\pisqworky\include\deska.h
+	<iostream>
+
+1636888717 source:c:\users\lucie\onedrive\dokumenty\Èvut\inženýrské studium\1. semestr\programování inženýrských aplikací\piškvorky\piškvorky\pisqworky\src\deska.cpp
+	<iostream>
+	"Deska.h"
+
+1636888717 source:c:\users\lucie\onedrive\dokumenty\Èvut\inženýrské studium\1. semestr\programování inženýrských aplikací\piškvorky\piškvorky\pisqworky\src\pocitac_rand.cpp
+	"Pocitac_rand.h"
+	<stdio.h>
+	<iostream>
+	<vector>
+	"Deska.h"
+	<cstdlib>
+	<ctime>
+
+1636888717 c:\users\lucie\onedrive\dokumenty\Èvut\inženýrské studium\1. semestr\programování inženýrských aplikací\piškvorky\piškvorky\pisqworky\include\pocitac_rand.h
+	<stdio.h>
+	<iostream>
+	<vector>
+	"Deska.h"
+
+1636890763 source:c:\users\lucie\onedrive\dokumenty\Èvut\inženýrské studium\1. semestr\programování inženýrských aplikací\piškvorky\piškvorky\pisqworky\src\hra.cpp
+	"Hra.h"
+	"Deska.h"
+	"Pocitac_rand.h"
+	<vector>
+	<iostream>
+
+1636890763 c:\users\lucie\onedrive\dokumenty\Èvut\inženýrské studium\1. semestr\programování inženýrských aplikací\piškvorky\piškvorky\pisqworky\include\hra.h
+	<iostream>
+	<stdio.h>
+	<vector>
+	"Deska.h"
+	"Pocitac_rand.h"
+
