@@ -242,7 +242,7 @@ void Hra::spustit(){
 		cin >> x;
 		if (x == "ano"){
 			flag = true;
-		}else{
+		}else{flag=false;
 			cout << "------------------------------------------------------"<<endl;
 		}
 	}
