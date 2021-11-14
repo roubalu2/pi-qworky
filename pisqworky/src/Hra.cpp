@@ -3,6 +3,7 @@
 #include "Pocitac_rand.h"
 #include <vector>
 #include <iostream>
+#include "Pocitac_ok.h"
 
 using namespace std;
 
@@ -14,7 +15,7 @@ Hra::Hra()
 void Hra::Konzole ()
 {
     deska.clear ();
-    Pocitac_rand pocitac_rand;
+    Pocitac_ok pocitac;
     bool flag = true;
     int hod = 1;
     int x = -1, y = -1;
@@ -171,7 +172,7 @@ void Hra::Konzole ()
         else
         {
 
-            v = pocitac_rand.tah(deska);
+            v = pocitac.tah(deska);
             x = v[0];
             y = v[1];
 
