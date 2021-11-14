@@ -198,7 +198,19 @@ void Hra::Konzole ()
                 cout << "Souradnice tahu pocitace jsou: ("<<x<<", "<<y<<") "<<endl;
             }
         }
-    hod= 3 - hod;
+        //kontrola vyhry
+        if (deska.vyhra(x,y)){
+            deska.print();
+            if (hod == 1) {
+                cout<<"Gratulujeme! Vyhral jsi!"<<endl;
+            }else{
+            cout <<"Pocitac vyhral!"<<endl;
+            }
+            break;
+        }else {
+             hod= 3 - hod;
+        }
+
     }
 
 
@@ -223,13 +235,13 @@ char Hra::nactiSymbol(int hod)
 }
 void Hra::spustit(){
 	bool flag = true;
-	char x;
+	string x;
 	while (flag){
 		Konzole();
 		cout << "Prejete si hrat dalsi hru? ano/ne"<<endl;
 		cin >> x;
-		if (x == 'N' || x == 'n'){
-			flag = false;
+		if (x == "ano"){
+			flag = true;
 		}else{
 			cout << "------------------------------------------------------"<<endl;
 		}
