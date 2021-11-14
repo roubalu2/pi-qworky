@@ -1,12 +1,12 @@
 # depslib dependency file v1.0
-1636809652 source:c:\users\lucin\documents\github\pisqworky\pisqworky\main.cpp
+1636810339 source:c:\users\lucin\documents\github\pisqworky\pisqworky\main.cpp
 	<iostream>
 	"Deska.h"
 
-1636810339 c:\users\lucin\documents\github\pisqworky\pisqworky\include\deska.h
+1636888041 c:\users\lucin\documents\github\pisqworky\pisqworky\include\deska.h
 	<iostream>
 
-1636810107 source:c:\users\lucin\documents\github\pisqworky\pisqworky\src\deska.cpp
+1636887804 source:c:\users\lucin\documents\github\pisqworky\pisqworky\src\deska.cpp
 	<iostream>
 	"Deska.h"
 
@@ -31,6 +31,21 @@
 	<ctime>
 
 1636819285 d:\marek\Èvut\inženýrské studium\5. roèník\1. semestr\pia 1\semestralka\pokus_02\include\pocitac_rand.h
+	<stdio.h>
+	<iostream>
+	<vector>
+	"Deska.h"
+
+1636884669 source:c:\users\lucin\documents\github\pisqworky\pisqworky\src\pocitac_rand.cpp
+	"Pocitac_rand.h"
+	<stdio.h>
+	<iostream>
+	<vector>
+	"Deska.h"
+	<cstdlib>
+	<ctime>
+
+1636884669 c:\users\lucin\documents\github\pisqworky\pisqworky\include\pocitac_rand.h
 	<stdio.h>
 	<iostream>
 	<vector>
