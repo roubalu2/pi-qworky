@@ -10,3 +10,29 @@
 	<iostream>
 	"Deska.h"
 
+1636818726 source:d:\marek\Èvut\inženýrské studium\5. roèník\1. semestr\pia 1\semestralka\pokus_02\main.cpp
+	<iostream>
+	"Deska.h"
+
+1636819381 d:\marek\Èvut\inženýrské studium\5. roèník\1. semestr\pia 1\semestralka\pokus_02\include\deska.h
+	<iostream>
+
+1636819472 source:d:\marek\Èvut\inženýrské studium\5. roèník\1. semestr\pia 1\semestralka\pokus_02\src\deska.cpp
+	<iostream>
+	"Deska.h"
+
+1636819285 source:d:\marek\Èvut\inženýrské studium\5. roèník\1. semestr\pia 1\semestralka\pokus_02\src\pocitac_rand.cpp
+	"Pocitac_rand.h"
+	<stdio.h>
+	<iostream>
+	<vector>
+	"Deska.h"
+	<cstdlib>
+	<ctime>
+
+1636819285 d:\marek\Èvut\inženýrské studium\5. roèník\1. semestr\pia 1\semestralka\pokus_02\include\pocitac_rand.h
+	<stdio.h>
+	<iostream>
+	<vector>
+	"Deska.h"
+

@@ -14,12 +14,12 @@ class Deska
         Deska();
         void clear();
         void print();
+        bool prazdne(int, int);
     protected:
 
     private:
         char deska [VelPol][VelPol];
         int count;
-        bool prazdne(int, int);
         void Hodnota(int, int, char);
 
 
