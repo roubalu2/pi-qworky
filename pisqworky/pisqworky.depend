@@ -81,10 +81,11 @@
 	<vector>
 	"Deska.h"
 
-1636905215 source:c:\users\lucie\onedrive\dokumenty\Èvut\inženýrské studium\1. semestr\programování inženýrských aplikací\piškvorky\piškvorky\pisqworky\src\hra.cpp
+1637063201 source:c:\users\lucie\onedrive\dokumenty\Èvut\inženýrské studium\1. semestr\programování inženýrských aplikací\piškvorky\piškvorky\pisqworky\src\hra.cpp
 	"Hra.h"
 	"Deska.h"
 	"Pocitac_rand.h"
+	"Pocitac_ok.h"
 	<vector>
 	<iostream>
 	<regex>
