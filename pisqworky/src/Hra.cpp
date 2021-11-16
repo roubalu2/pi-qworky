@@ -1,6 +1,7 @@
 #include "Hra.h"
 #include "Deska.h"
 #include "Pocitac_rand.h"
+#include "Pocitac_ok.h"
 #include <vector>
 #include <iostream>
 
@@ -17,7 +18,7 @@ Hra::Hra()
 void Hra::Konzole ()
 {
     deska.clear ();
-    Pocitac_rand pocitac_rand;
+    Pocitac_ok pocitac_rand;
     bool flag = true;
     int hod = 1;
     int x = -1, y = -1;

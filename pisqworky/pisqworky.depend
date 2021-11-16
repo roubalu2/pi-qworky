@@ -89,12 +89,13 @@
 	<iostream>
 	<regex>
 
-1636905215 c:\users\lucie\onedrive\dokumenty\Èvut\inženýrské studium\1. semestr\programování inženýrských aplikací\piškvorky\piškvorky\pisqworky\include\hra.h
+1637063201 c:\users\lucie\onedrive\dokumenty\Èvut\inženýrské studium\1. semestr\programování inženýrských aplikací\piškvorky\piškvorky\pisqworky\include\hra.h
 	<iostream>
 	<stdio.h>
 	<vector>
 	"Deska.h"
 	"Pocitac_rand.h"
+	"Pocitac_ok.h"
 
 1636896265 source:d:\marek\Èvut\inženýrské studium\5. roèník\1. semestr\pia 1\semestralka\pokus_03\main.cpp
 	<iostream>
