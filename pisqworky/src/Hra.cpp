@@ -18,7 +18,12 @@ Hra::Hra()
 void Hra::Konzole ()
 {
     deska.clear ();
-    Pocitac_ok pocitac_rand;
+    int ob = 1;
+    cout<<"Vyberte obtiznost pocitace: 1, 2, 3" << endl;
+    cin>> ob;
+
+    Pocitac_ok pocitac_ok;
+    Pocitac_rand pocitac_rand;
     bool flag = true;
     int hod = 1;
     int x = -1, y = -1;
@@ -207,13 +212,21 @@ void Hra::Konzole ()
         }
         else
         {
+            if (ob == 1)
+            {
+                v = pocitac_rand.tah(deska);
 
-            v = pocitac_rand.tah(deska);
+                x = v[0];
+                y = v[1];
+            }
+            else if (ob ==2)
+            {
+                v = pocitac_ok.tah(deska);
 
-            x = v[0];
-            y = v[1];
+                x = v[0];
+                y = v[1];
 
-
+            }
 
         }
 
