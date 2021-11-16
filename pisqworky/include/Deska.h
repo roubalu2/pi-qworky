@@ -23,7 +23,8 @@ public:
     bool sloupec(int, int);
     bool diagonala1(int, int);
     bool diagonala2(int, int);
-string toString();
+    bool remiza();
+    string toString();
 protected:
 
 private:

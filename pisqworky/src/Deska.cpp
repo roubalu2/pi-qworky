@@ -153,6 +153,14 @@ char Deska::nacti(int i, int j){
 }
 
 
+bool Deska::remiza(){
+    if(count==VelPol*VelPol) {
+        return true;
+    }
+        return false;
+    }
+
+
 int Deska::pocitej(){
 	return count;
 }

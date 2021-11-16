@@ -202,3 +202,77 @@
 	<vector>
 	"Deska.h"
 
+1636909447 source:d:\marek\Èvut\inženýrské studium\5. roèník\1. semestr\pia 1\semestralka\pokus_06\main.cpp
+	<iostream>
+	"Hra.h"
+	"Deska.h"
+	"Pocitac_rand.h"
+
+1637068836 d:\marek\Èvut\inženýrské studium\5. roèník\1. semestr\pia 1\semestralka\pokus_06\include\hra.h
+	<iostream>
+	<stdio.h>
+	<vector>
+	"Deska.h"
+	"Pocitac_rand.h"
+	"Pocitac_ok.h"
+	"Pocitac_hard.h"
+
+1637068702 d:\marek\Èvut\inženýrské studium\5. roèník\1. semestr\pia 1\semestralka\pokus_06\include\deska.h
+	<iostream>
+
+1636909447 d:\marek\Èvut\inženýrské studium\5. roèník\1. semestr\pia 1\semestralka\pokus_06\include\pocitac_rand.h
+	<stdio.h>
+	<iostream>
+	<vector>
+	"Deska.h"
+
+1636909447 d:\marek\Èvut\inženýrské studium\5. roèník\1. semestr\pia 1\semestralka\pokus_06\include\pocitac_ok.h
+	<stdio.h>
+	<iostream>
+	<vector>
+	"Deska.h"
+
+1637068702 source:d:\marek\Èvut\inženýrské studium\5. roèník\1. semestr\pia 1\semestralka\pokus_06\src\deska.cpp
+	<iostream>
+	"Deska.h"
+
+1637068383 source:d:\marek\Èvut\inženýrské studium\5. roèník\1. semestr\pia 1\semestralka\pokus_06\src\hra.cpp
+	"Hra.h"
+	"Deska.h"
+	"Pocitac_rand.h"
+	"Pocitac_ok.h"
+	<vector>
+	<iostream>
+	<regex>
+
+1636909447 source:d:\marek\Èvut\inženýrské studium\5. roèník\1. semestr\pia 1\semestralka\pokus_06\src\pocitac_ok.cpp
+	"Pocitac_ok.h"
+	<stdio.h>
+	<iostream>
+	<vector>
+	"Deska.h"
+	<cstdlib>
+	<ctime>
+
+1636909447 source:d:\marek\Èvut\inženýrské studium\5. roèník\1. semestr\pia 1\semestralka\pokus_06\src\pocitac_rand.cpp
+	"Pocitac_rand.h"
+	<stdio.h>
+	<iostream>
+	<vector>
+	"Deska.h"
+	<cstdlib>
+	<ctime>
+
+1636908547 d:\marek\Èvut\inženýrské studium\5. roèník\1. semestr\pia 1\semestralka\pokus_06\include\pocitac_hard.h
+	<stdio.h>
+	<iostream>
+	<vector>
+	"Deska.h"
+	<vector>
+	<unordered_map>
+
+1636908547 source:d:\marek\Èvut\inženýrské studium\5. roèník\1. semestr\pia 1\semestralka\pokus_06\src\pocitac_hard.cpp
+	<iostream>
+	"Pocitac_hard.h"
+	"Deska.h"
+

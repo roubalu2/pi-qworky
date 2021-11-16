@@ -2,6 +2,7 @@
 #include "Deska.h"
 #include "Pocitac_rand.h"
 #include "Pocitac_ok.h"
+#include "Pocitac_hard.h"
 #include <vector>
 #include <iostream>
 
@@ -24,6 +25,7 @@ void Hra::Konzole ()
 
     Pocitac_ok pocitac_ok;
     Pocitac_rand pocitac_rand;
+    Pocitac_hard pocitac_hard;
     bool flag = true;
     int hod = 1;
     int x = -1, y = -1;
@@ -222,6 +224,13 @@ void Hra::Konzole ()
             else if (ob ==2)
             {
                 v = pocitac_ok.tah(deska);
+
+                x = v[0];
+                y = v[1];
+
+            }
+            else {
+                v = pocitac_hard.tah(deska);
 
                 x = v[0];
                 y = v[1];
