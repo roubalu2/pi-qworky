@@ -5,10 +5,10 @@
 	"Deska.h"
 	"Pocitac_rand.h"
 
-1636891140 c:\users\lucin\documents\github\pisqworky\pisqworky\include\deska.h
+1637069434 c:\users\lucin\documents\github\pisqworky\pisqworky\include\deska.h
 	<iostream>
 
-1636891140 source:c:\users\lucin\documents\github\pisqworky\pisqworky\src\deska.cpp
+1637069434 source:c:\users\lucin\documents\github\pisqworky\pisqworky\src\deska.cpp
 	<iostream>
 	"Deska.h"
 
@@ -157,12 +157,14 @@
 	<vector>
 	"Deska.h"
 
-1636902941 c:\users\lucin\documents\github\pisqworky\pisqworky\include\hra.h
+1637069434 c:\users\lucin\documents\github\pisqworky\pisqworky\include\hra.h
 	<iostream>
 	<stdio.h>
 	<vector>
 	"Deska.h"
 	"Pocitac_rand.h"
+	"Pocitac_ok.h"
+	"Pocitac_hard.h"
 
 1636902892 source:c:\users\lucin\documents\github\pisqworky\pisqworky\src\pocitac_ok.cpp
 	"Pocitac_ok.h"
@@ -179,10 +181,12 @@
 	<vector>
 	"Deska.h"
 
-1636902940 source:c:\users\lucin\documents\github\pisqworky\pisqworky\src\hra.cpp
+1637070511 source:c:\users\lucin\documents\github\pisqworky\pisqworky\src\hra.cpp
 	"Hra.h"
 	"Deska.h"
 	"Pocitac_rand.h"
+	"Pocitac_ok.h"
+	"Pocitac_hard.h"
 	<vector>
 	<iostream>
 	<regex>
@@ -272,6 +276,19 @@
 	<unordered_map>
 
 1636908547 source:d:\marek\Èvut\inženýrské studium\5. roèník\1. semestr\pia 1\semestralka\pokus_06\src\pocitac_hard.cpp
+	<iostream>
+	"Pocitac_hard.h"
+	"Deska.h"
+
+1637069434 c:\users\lucin\documents\github\pisqworky\pisqworky\include\pocitac_hard.h
+	<stdio.h>
+	<iostream>
+	<vector>
+	"Deska.h"
+	<vector>
+	<unordered_map>
+
+1637069434 source:c:\users\lucin\documents\github\pisqworky\pisqworky\src\pocitac_hard.cpp
 	<iostream>
 	"Pocitac_hard.h"
 	"Deska.h"

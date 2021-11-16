@@ -20,7 +20,7 @@ void Hra::Konzole ()
 {
     deska.clear ();
     int ob = 1;
-    cout<<"Vyberte obtiznost pocitace: 1, 2, 3" << endl;
+    cout<<"Tak na co si veris? ty srabe = 1, easy = 2, hard (konecne slusna obtiznost) = cokoliv ostatniho" << endl;
     cin>> ob;
 
     Pocitac_ok pocitac_ok;
@@ -34,19 +34,19 @@ void Hra::Konzole ()
     //deska.hracSymbol ('X');
     //deska.pocitacSymbol ('O');
 
-    cout << "Vas symbol je X.\nPrejete si hrat jako prvni? ano/ne" << endl;
+    cout << "Hrajes s X-em tak nebrec.\nChces hrat prvni? ano/ne" << endl;
     string poradi;
     cin >> poradi;
 
     if (poradi == "ano")
     {
         hod = 1;
-        cout << "Hrajes jako prvni." << endl;
+        cout << "Se bojis vid? :D Proto sis vybral hrat prvni." << endl;
 
     }
     else
     {
-        cout << "Hrajes jako druhy." << endl;
+        cout << "Ty se toho nebojis co? Jen pockej..." << endl;
         hod = 2;
     }
     deska.print();
@@ -56,7 +56,7 @@ void Hra::Konzole ()
 
         if (hod == 1)
         {
-            cout << "Jste na tahu.\nZadejte souradnice vaseho tahu." << endl;
+            cout << "Tak se ukaz.\nPrvni zadej pismeno a pak cislo. To snad jeste zvladnes ne?" << endl;
             string souradnice;
             cin >> souradnice;
             string data2= souradnice;
@@ -242,7 +242,7 @@ void Hra::Konzole ()
         //overeni spravnosti tahu
         if (!deska.prazdne( x, y))
         {
-            cout << endl << "Tah je neplatny. Zadejte jine souradnice tahu." << endl;
+            cout << endl << "Pokus dobrej, ale neplati. Budu hodnej a dam ti jeste sanci." << endl;
             continue;
 
         }
@@ -252,12 +252,12 @@ void Hra::Konzole ()
             deska.print();
             if (hod == 1)
             {
-                cout << "Souradnice vaseho tahu jsou: ("<<x<<", "<<y<<") "<<endl;
+                cout << "Tvuj tah je: ("<<x<<", "<<y<<") Bud v klidu, stejne nakonec prohrajes."<<endl;
 
             }
             else
             {
-                cout << "Souradnice tahu pocitace jsou: ("<<x<<", "<<y<<") "<<endl;
+                cout << "Muj tah je: ("<<x<<", "<<y<<")  Dobry co?"<<endl;
             }
         }
 //kontrola vyhry
@@ -266,12 +266,12 @@ void Hra::Konzole ()
             deska.print();
             if (hod == 1)
             {
-                cout<<"Gratuluji! Vyhral jste!"<<endl;
+                cout<<"Fajn priznam to no... Proste si vyhral, ale nebudem to moc okecavat."<<endl;
 
             }
             else
             {
-                cout<< "Pocitac vyhral!"<<endl;
+                cout<< "JSEEEM LEEEPSIII A VYHRAAAAL JSEEEEM!!!!!"<<endl;
             }
             break;
         }
@@ -309,7 +309,7 @@ void Hra::spustit()
     while (flag)
     {
         Konzole();
-        cout << "Prejete si hrat dalsi hru? ano/ne"<<endl;
+        cout << "Tak co? Dame dalsi hru? ano/ne"<<endl;
         cin >> x;
         if (x == "ano")
         {
