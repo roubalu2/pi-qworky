@@ -7,6 +7,7 @@
 #include "Deska.h"
 #include "Pocitac_rand.h"
 #include "Pocitac_ok.h"
+#include "Pocitac_hard.h"
 
 class Hra
 {
