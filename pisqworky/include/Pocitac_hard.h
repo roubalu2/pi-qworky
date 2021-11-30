@@ -1,14 +1,6 @@
-//
-//  Computer.h
-//  Gomoku
-//
-//  Created by Thanh Dang on 9/3/15.
-//  Copyright (c) 2015 ga. All rights reserved.
-//
-//  Varianta pocitace od autora viz vyse upravena tak, aby fungovala s nasi hrou
 
-#ifndef __Gomoku__Computer__
-#define __Gomoku__Computer__
+#ifndef POCITAC_HARD_H
+#define POCITAC_HARD_H
 
 #include <stdio.h>
 #include <iostream>
@@ -35,4 +27,4 @@ class Pocitac_hard{
 	void insertToHashMap(Deska &, int);
 };
 
-#endif /* defined(__Gomoku__Computer__) */
+#endif

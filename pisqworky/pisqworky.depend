@@ -276,3 +276,153 @@
 	"Pocitac_hard.h"
 	"Deska.h"
 
+1636909447 source:d:\marek\Èvut\inženýrské studium\5. roèník\1. semestr\pia 1\semestralka\pokus_07\main.cpp
+	<iostream>
+	"Hra.h"
+	"Deska.h"
+	"Pocitac_rand.h"
+
+1637068836 d:\marek\Èvut\inženýrské studium\5. roèník\1. semestr\pia 1\semestralka\pokus_07\include\hra.h
+	<iostream>
+	<stdio.h>
+	<vector>
+	"Deska.h"
+	"Pocitac_rand.h"
+	"Pocitac_ok.h"
+	"Pocitac_hard.h"
+
+1637068702 d:\marek\Èvut\inženýrské studium\5. roèník\1. semestr\pia 1\semestralka\pokus_07\include\deska.h
+	<iostream>
+
+1636909447 d:\marek\Èvut\inženýrské studium\5. roèník\1. semestr\pia 1\semestralka\pokus_07\include\pocitac_rand.h
+	<stdio.h>
+	<iostream>
+	<vector>
+	"Deska.h"
+
+1636909447 d:\marek\Èvut\inženýrské studium\5. roèník\1. semestr\pia 1\semestralka\pokus_07\include\pocitac_ok.h
+	<stdio.h>
+	<iostream>
+	<vector>
+	"Deska.h"
+
+1638274016 d:\marek\Èvut\inženýrské studium\5. roèník\1. semestr\pia 1\semestralka\pokus_07\include\pocitac_hard.h
+	<stdio.h>
+	<iostream>
+	<vector>
+	"Deska.h"
+	<vector>
+	<unordered_map>
+
+1637068702 source:d:\marek\Èvut\inženýrské studium\5. roèník\1. semestr\pia 1\semestralka\pokus_07\src\deska.cpp
+	<iostream>
+	"Deska.h"
+
+1637069065 source:d:\marek\Èvut\inženýrské studium\5. roèník\1. semestr\pia 1\semestralka\pokus_07\src\hra.cpp
+	"Hra.h"
+	"Deska.h"
+	"Pocitac_rand.h"
+	"Pocitac_ok.h"
+	"Pocitac_hard.h"
+	<vector>
+	<iostream>
+	<regex>
+
+1636908547 source:d:\marek\Èvut\inženýrské studium\5. roèník\1. semestr\pia 1\semestralka\pokus_07\src\pocitac_hard.cpp
+	<iostream>
+	"Pocitac_hard.h"
+	"Deska.h"
+
+1636909447 source:d:\marek\Èvut\inženýrské studium\5. roèník\1. semestr\pia 1\semestralka\pokus_07\src\pocitac_ok.cpp
+	"Pocitac_ok.h"
+	<stdio.h>
+	<iostream>
+	<vector>
+	"Deska.h"
+	<cstdlib>
+	<ctime>
+
+1636909447 source:d:\marek\Èvut\inženýrské studium\5. roèník\1. semestr\pia 1\semestralka\pokus_07\src\pocitac_rand.cpp
+	"Pocitac_rand.h"
+	<stdio.h>
+	<iostream>
+	<vector>
+	"Deska.h"
+	<cstdlib>
+	<ctime>
+
+1636909447 source:d:\marek\Èvut\inženýrské studium\5. roèník\1. semestr\pia 1\semestralka\pisqworky\pisqworky\main.cpp
+	<iostream>
+	"Hra.h"
+	"Deska.h"
+	"Pocitac_rand.h"
+
+1637068836 d:\marek\Èvut\inženýrské studium\5. roèník\1. semestr\pia 1\semestralka\pisqworky\pisqworky\include\hra.h
+	<iostream>
+	<stdio.h>
+	<vector>
+	"Deska.h"
+	"Pocitac_rand.h"
+	"Pocitac_ok.h"
+	"Pocitac_hard.h"
+
+1637068702 d:\marek\Èvut\inženýrské studium\5. roèník\1. semestr\pia 1\semestralka\pisqworky\pisqworky\include\deska.h
+	<iostream>
+
+1636909447 d:\marek\Èvut\inženýrské studium\5. roèník\1. semestr\pia 1\semestralka\pisqworky\pisqworky\include\pocitac_rand.h
+	<stdio.h>
+	<iostream>
+	<vector>
+	"Deska.h"
+
+1636909447 d:\marek\Èvut\inženýrské studium\5. roèník\1. semestr\pia 1\semestralka\pisqworky\pisqworky\include\pocitac_ok.h
+	<stdio.h>
+	<iostream>
+	<vector>
+	"Deska.h"
+
+1638274016 d:\marek\Èvut\inženýrské studium\5. roèník\1. semestr\pia 1\semestralka\pisqworky\pisqworky\include\pocitac_hard.h
+	<stdio.h>
+	<iostream>
+	<vector>
+	"Deska.h"
+	<vector>
+	<unordered_map>
+
+1637068702 source:d:\marek\Èvut\inženýrské studium\5. roèník\1. semestr\pia 1\semestralka\pisqworky\pisqworky\src\deska.cpp
+	<iostream>
+	"Deska.h"
+
+1637069065 source:d:\marek\Èvut\inženýrské studium\5. roèník\1. semestr\pia 1\semestralka\pisqworky\pisqworky\src\hra.cpp
+	"Hra.h"
+	"Deska.h"
+	"Pocitac_rand.h"
+	"Pocitac_ok.h"
+	"Pocitac_hard.h"
+	<vector>
+	<iostream>
+	<regex>
+
+1638274136 source:d:\marek\Èvut\inženýrské studium\5. roèník\1. semestr\pia 1\semestralka\pisqworky\pisqworky\src\pocitac_hard.cpp
+	<iostream>
+	"Pocitac_hard.h"
+	"Deska.h"
+
+1636909447 source:d:\marek\Èvut\inženýrské studium\5. roèník\1. semestr\pia 1\semestralka\pisqworky\pisqworky\src\pocitac_ok.cpp
+	"Pocitac_ok.h"
+	<stdio.h>
+	<iostream>
+	<vector>
+	"Deska.h"
+	<cstdlib>
+	<ctime>
+
+1636909447 source:d:\marek\Èvut\inženýrské studium\5. roèník\1. semestr\pia 1\semestralka\pisqworky\pisqworky\src\pocitac_rand.cpp
+	"Pocitac_rand.h"
+	<stdio.h>
+	<iostream>
+	<vector>
+	"Deska.h"
+	<cstdlib>
+	<ctime>
+

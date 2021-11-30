@@ -1,12 +1,3 @@
-//
-//  Computer.cpp
-//  Gomoku
-//
-//  Created by Thanh Dang on 9/3/15.
-//  Copyright (c) 2015 ga. All rights reserved.
-//
-//  Varianta pocitace od autora viz vyse upravena tak, aby fungovala s nasi hrou
-
 #include <iostream>
 
 #include "Pocitac_hard.h"
@@ -19,8 +10,7 @@ char playerSymbol = 'X';
 char computerSymbol = 'O';
 
 
-//find next move with the help of alpha-beta
-//want to maximize the evaluation function. It's good for the computer
+
 vector<int> Pocitac_hard::tah(Deska & deska){
 	vector<int> v = {0,0};
 	int M = INT_MIN, x = -1, y = -1;
@@ -49,11 +39,6 @@ vector<int> Pocitac_hard::tah(Deska & deska){
 
 
 
-
-//minimaxAlphaBeta algorithm with alpha-beta to help determine the next move for the computer
-//Use evaluation function with depth here.
-//higher score is good for computer, lower score is good for player
-//isMax = true if the move at (x,y) is of computer
 int Pocitac_hard::minimaxAlphaBeta(Deska & deska, int depth, bool isMax, int alpha, int beta, int x , int y){
 
 	char z = isMax ?  playerSymbol  :  computerSymbol;
@@ -61,10 +46,10 @@ int Pocitac_hard::minimaxAlphaBeta(Deska & deska, int depth, bool isMax, int alp
 
 	if (deska.vyhra(x,y)){
 		deska.hodnota(x,y,'-');
-		if (isMax){//computer wins
+		if (isMax){
 			return INT_MAX;
 		}else {
-			return INT_MIN;// player wins, therefore, need to minimize score so computer will not choose this path
+			return INT_MIN;
 		}
 	}else if (deska.remiza()){
 		deska.hodnota(x,y,'-');
@@ -73,18 +58,18 @@ int Pocitac_hard::minimaxAlphaBeta(Deska & deska, int depth, bool isMax, int alp
 	if (depth == 0){
 		int value = 0;
 		if (checkVisitedBoard(deska) == true){
-			value = getEvaluation(deska); // evaluation of board was already stored
+			value = getEvaluation(deska);
 		}else{
-			value = evaluation(deska, isMax); //need to compute evaluation of this new board
-			insertToHashMap(deska, value); //store evaluation of this new board into memory
+			value = evaluation(deska, isMax);
+			insertToHashMap(deska, value);
 		}
 		deska.hodnota(x,y,'-');
 
-		//cout <<"evaluation at "<<x <<" "<<y<< " is "<< value <<endl;
+
 		return value;
 	}
 
-	//save the X positions of available cells into firstCoord, Y positions of available cells into secondCoord
+
 	vector<int> firstCoord;
 	vector<int> secondCoord;
 	for (int i = 0; i < VelPol; i++){
@@ -97,7 +82,7 @@ int Pocitac_hard::minimaxAlphaBeta(Deska & deska, int depth, bool isMax, int alp
 	}
 
 	int len = (int) firstCoord.size();
-	if (isMax == true){ // try to minimize because now is player's turn
+	if (isMax == true){
 		int m = INT_MAX;
 		for (int i = 0; i < len; i++){
 			int temp = minimaxAlphaBeta(deska,depth - 1, false, alpha, beta, firstCoord[i], secondCoord[i]);
@@ -114,7 +99,7 @@ int Pocitac_hard::minimaxAlphaBeta(Deska & deska, int depth, bool isMax, int alp
 		deska.hodnota(x,y,'-');
 
 		return m;
-	}else {//try to maximize
+	}else {
 		int M = INT_MIN;
 		for (int i = 0; i < len; i++){
 			int temp = minimaxAlphaBeta(deska, depth - 1, true, alpha, beta, firstCoord[i], secondCoord[i]);
@@ -137,7 +122,7 @@ int Pocitac_hard::minimaxAlphaBeta(Deska & deska, int depth, bool isMax, int alp
 
 
 
-int Pocitac_hard::evaluation(Deska & deska, bool isMax){//if isMax is true, computer is about to make the move at (x,y)
+int Pocitac_hard::evaluation(Deska & deska, bool isMax){
 
 	int sum = 0;
 	vector<int> computerPattern(VelVyh+1,0);
@@ -147,13 +132,13 @@ int Pocitac_hard::evaluation(Deska & deska, bool isMax){//if isMax is true, comp
 		for (int j = 0; j < VelPol ; j++){
 			if (deska.nacti(i,j) != '-'){
 
-				//count patterns in columns
+
 				char z = deska.nacti(i,j);
 				bool needMax = z == computerSymbol;
 
 
 
-				int sameSymbol = 1; // count same symbols in columns
+				int sameSymbol = 1;
 				int k = 1;
 				while (i- k >= 0 && deska.nacti(i-k, j)  == z){
 					sameSymbol++;
@@ -161,7 +146,7 @@ int Pocitac_hard::evaluation(Deska & deska, bool isMax){//if isMax is true, comp
 				}
 
 
-				//consider value at i - k later to see if it's blocked or not
+
 				int l = 1;
 				while (i + l <= VelPol-1 && deska.nacti(i+l, j) == z){
 					sameSymbol++;
@@ -187,7 +172,7 @@ int Pocitac_hard::evaluation(Deska & deska, bool isMax){//if isMax is true, comp
 
 
 				//-------------------------------------------------------------------------------
-				sameSymbol = 1; // count same symbols in rows
+				sameSymbol = 1;
 				k = 1;
 				while (j - k >= 0 && deska.nacti(i, j-k)  == z){
 					sameSymbol++;
@@ -195,7 +180,7 @@ int Pocitac_hard::evaluation(Deska & deska, bool isMax){//if isMax is true, comp
 				}
 
 
-				//consider value at i - k later to see if it's blocked or not
+
 				l = 1;
 				while (j + l <= VelPol-1 && deska.nacti(i, j+l) == z){
 					sameSymbol++;
@@ -221,7 +206,7 @@ int Pocitac_hard::evaluation(Deska & deska, bool isMax){//if isMax is true, comp
 
 				//--------------------------------------------------------------
 
-				sameSymbol = 1;// count same symbols in main diagnol
+				sameSymbol = 1;
 				k = 1;
 				while (i - k >= 0 && j - k >= 0 && deska.nacti(i-k, j- k)  == z){
 					sameSymbol++;
@@ -229,7 +214,7 @@ int Pocitac_hard::evaluation(Deska & deska, bool isMax){//if isMax is true, comp
 				}
 
 
-				//consider value at i - k later to see if it's blocked or not
+
 				l = 1;
 				while (i + l <= VelPol-1 && j + l <= VelPol-1 && deska.nacti(i+l, j+l ) == z){
 					sameSymbol++;
@@ -258,7 +243,7 @@ int Pocitac_hard::evaluation(Deska & deska, bool isMax){//if isMax is true, comp
 				//-----------------------------------------------------------------------
 
 
-				sameSymbol = 1;// count same symbols in reverse diagnols
+				sameSymbol = 1;
 				k = 1;
 				while (i - k >= 0 && j + k <= VelPol-1 && deska.nacti(i-k, j+ k)  == z){
 					sameSymbol++;
@@ -266,7 +251,7 @@ int Pocitac_hard::evaluation(Deska & deska, bool isMax){//if isMax is true, comp
 				}
 
 
-				//consider value at i - k later to see if it's blocked or not
+
 				l = 1;
 				while (i + l <= VelPol-1 && j - l >= 0 && deska.nacti(i+l, j-l ) == z){
 					sameSymbol++;
@@ -300,7 +285,7 @@ int Pocitac_hard::evaluation(Deska & deska, bool isMax){//if isMax is true, comp
 	sum += computerPattern[1];
 	sum -= playerPattern[1]*5;
 	for (int i = 2 ; i < VelVyh ; i++){
-		//cout <<computerPattern[i] << " : "<<playerPattern[i]<<endl;
+
 		x *= 100;
 		sum += computerPattern[i] * x;
 		sum -= playerPattern[i] * x * 10;
@@ -328,7 +313,7 @@ bool Pocitac_hard::adjacentPlaced(Deska & deska , int x, int y){
 
 
 
-//check if the evaluation function of a particular board is already in the memory or not
+
 bool Pocitac_hard::checkVisitedBoard(Deska & deska){
 	string s = deska.toString();
 	if (hashMap.find(s) != hashMap.end()){
@@ -338,8 +323,6 @@ bool Pocitac_hard::checkVisitedBoard(Deska & deska){
 }
 
 
-//if the evaluation function of a board is already in the memory, just need to take it out.
-// this will save time computing the evaluation function of the board.
 int Pocitac_hard::getEvaluation(Deska & deska){
 	if (checkVisitedBoard(deska)){
 		return hashMap[deska.toString()];
@@ -348,7 +331,6 @@ int Pocitac_hard::getEvaluation(Deska & deska){
 }
 
 
-//insert values to hash map
 
 void Pocitac_hard::insertToHashMap(Deska & deska, int eval){
 	string s = deska.toString();
